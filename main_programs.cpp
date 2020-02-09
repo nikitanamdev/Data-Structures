@@ -178,6 +178,7 @@ public:
             {
                 int old_value = ll.back();
                 ll.pop_back();
+                
                 map.erase(old_value);
             }
             ll.push_front(key);
